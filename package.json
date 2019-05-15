@@ -1,0 +1,16 @@
+{
+	"name": "ttsbot",
+	"version": "1.0.0",
+	"description": "Telegram Text-to-Speech bot",
+	"main": "index.js",
+	"scripts": {
+		"debug": "export NODE_ENV=\"development\"; nodemon .",
+		"start": "node ."
+	},
+	"repository": "https://github.com/imillerik/ttsbot",
+	"author": "Alex Miller <alex@imillerik.org>",
+	"license": "MIT",
+	"dependencies": {
+		"node-telegram-bot-api": "^0.30.0"
+	}
+}
